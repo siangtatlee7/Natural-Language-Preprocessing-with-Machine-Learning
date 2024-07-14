@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    background-image: url('background.jpg'); /* Adjust the path accordingly */
+    background-position: center;
+    background-size: cover; /* Set background size to cover the entire body */
+    background-repeat: no-repeat;
+    height: 100vh; /* Set body height to 100% of viewport height */
+    overflow: hidden;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Transparent white background for better readability */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 16px;
+    height: 150px; /* Increased height */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    resize: vertical;
+    transition: border-color 0.3s;
+    background-color: rgba(255, 255, 255, 0.9); /* Transparent white background for better readability */
+}
+
+textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    margin-top: 20px;
+    margin-bottom: 10px; /* Adjust margin bottom to reduce space */
+    font-size: 25px;
+    color: #333;
+    text-align: center;
+}
+
+#emojiResult {
+    font-size: 3em; /* Adjust the font size to make the emoji bigger */
+    text-align: center;
+    margin-bottom: 10px; /* Adjust margin bottom to reduce space */
+}
